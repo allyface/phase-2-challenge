@@ -30,4 +30,15 @@ export default class Functions {
       return day
     }
   }
+
+  static snippet(string, maxLength) {
+    if (typeof(string) != 'string' || typeof(maxLength) != 'number') {
+      throw new Error('Not a valid input')
+    }else if (string.length <= maxLength) {
+      return string
+    } else {
+      let snippedStr = string.slice(0, maxLength)
+      return snippedStr + '\u2026'
+    }
+  }
 }
