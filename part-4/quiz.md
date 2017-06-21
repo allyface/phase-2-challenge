@@ -20,11 +20,19 @@ readline
 
 - What keyboard shortcut do you use to split the screen in your editor?
 
+cmd + k + (down, left, or right)
+
 - What keyboard shortcut do you use to split the screen in your terminal?
+
+cmd + d
 
 - When a terminal command completes, how can you tell if it was successful or not?
 
 - What does your `~/.gitconfig` have in it? (paste the whole file here)
+
+[user]
+	email = ally.b.kendall@gmail.com
+	name = Ally Kendall
 
 - What is the difference between a relative and absolute path?
 
@@ -43,9 +51,18 @@ readline
 
   And you were in the `linkedin-for-dancers` folder. What command would you use to change folders to the `pinterest-for-dogs` folder?
 
+../pinterest-for-dogs
 
 - What keyboard shortcut do you use, in your editor, when you want to open a specific file?
 
+cmd - b
+
 - What files or folders do you want all git repositories to ignore?
 
+node_modules .DS_Store
+
+other operating system files, application files, language and framework files, files downloaded with package managers, and Credentials. Basically anything that the project itself doesn't use or needs to be kept private.
+
 - What is the main difference between `==` and `===` in JavaScript?
+
+`==` checks for equality, but is not strict, `===` is strict and checks both value and type
