@@ -25,7 +25,7 @@ describe('Functions.snippet()', () => {
   })
 })
 
-describe.only('Functions.numProps()', () => {
+describe('Functions.numProps()', () => {
   let friend = {
   name: 'Dominique',
   age: 30,
@@ -38,5 +38,17 @@ describe.only('Functions.numProps()', () => {
 
   it('should throw an error when given invalid input', () => {
     expect(Functions.numProps.bind(Functions, 5)).to.throw(Error, 'Not a valid input')
+  })
+})
+
+describe('Functions.filterBetween()', () => {
+  let arr = [1, 2, 3, 4, 5, 6, 7]
+
+  it('should return all items in an array between the min and max values', () => {
+    expect(Functions.filterBetween(arr, 5, 10)).to.deep.equal([5, 6, 7])
+  })
+
+  it('should throw an error when given invalid input', () => {
+    expect(Functions.filterBetween.bind(Functions, 5, 'a', 10)).to.throw(Error, 'Not a valid input')
   })
 })

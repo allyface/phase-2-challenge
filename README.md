@@ -19,7 +19,7 @@ Each requirement has a point value. A fully complete requirement gets full point
 
 - [x] __10:__ Solution is in a public GitHub repository called `phase-2-challenge`.
 - [x] __10:__ Solution repository has 4 folders: `part-1`, `part-2`, and `part-3`, and `part-4`.
-- [ ] __20:__ Git history shows frequent commits.
+- [x] __20:__ Git history shows frequent commits.
 
 ## Part 1: Write tests and solutions for these functions
 
@@ -42,10 +42,10 @@ weekday(new Date(2017, 5, 15)) // returns "Thu"
 
 #### Requirements
 
-- [ ] __10:__ A test using expected/valid inputs for the `weekday()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `weekday()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `weekday()` is defined in `functions.js`.
-- [ ] __10:__ Tests for `weekday()` are passing.
+- [x] __10:__ A test using expected/valid inputs for the `weekday()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `weekday()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `weekday()` is defined in `functions.js`.
+- [x] __10:__ Tests for `weekday()` are passing.
 
 ### Get a snippet from text
 
@@ -60,10 +60,10 @@ snippet("Hello, world!", 20) // => "Hello, world!"
 
 #### Requirements
 
-- [ ] __10:__ A test using expected/valid inputs for the `snippet()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `snippet()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `snippet()` is defined in `functions.js`.
-- [ ] __10:__ Tests for `snippet()` are passing.
+- [x] __10:__ A test using expected/valid inputs for the `snippet()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `snippet()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `snippet()` is defined in `functions.js`.
+- [x] __10:__ Tests for `snippet()` are passing.
 
 ### Number of properties
 
@@ -84,10 +84,10 @@ numProps({}) // => 0
 
 #### Requirements
 
-- [ ] __10:__ A test using expected/valid inputs for the `numProps()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `numProps()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `numProps()` is defined in `functions.js`.
-- [ ] __10:__ Tests for `numProps()` are passing.
+- [x] __10:__ A test using expected/valid inputs for the `numProps()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `numProps()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `numProps()` is defined in `functions.js`.
+- [x] __10:__ Tests for `numProps()` are passing.
 
 ### Filter between
 
@@ -104,10 +104,10 @@ filterBetween(arr, 5, 10) // => [5, 6, 7]
 
 #### Requirements
 
-- [ ] __10:__ A test using expected/valid inputs for the `filterBetween()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `filterBetween()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `filterBetween()` is defined in `functions.js`.
-- [ ] __10:__ Tests for `filterBetween()` are passing.
+- [x] __10:__ A test using expected/valid inputs for the `filterBetween()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `filterBetween()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `filterBetween()` is defined in `functions.js`.
+- [x] __10:__ Tests for `filterBetween()` are passing.
 
 ## Part 2: Extract data from JSON file
 

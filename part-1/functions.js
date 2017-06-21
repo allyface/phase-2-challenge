@@ -50,4 +50,18 @@ export default class Functions {
       return props.length
     }
   }
+
+  static filterBetween(array, min, max) {
+    let filteredArray = []
+    if(Array.isArray(array) === false || typeof(min) != 'number' || typeof(max) != 'number') {
+      throw new Error('Not a valid input')
+    } else {
+      for(let i = 0; i < array.length; i++) {
+        if(array[i] >= min && array[i] <= max) {
+          filteredArray.push(array[i])
+        }
+      }
+      return filteredArray
+    }
+  }
 }
