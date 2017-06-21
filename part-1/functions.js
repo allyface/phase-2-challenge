@@ -41,4 +41,13 @@ export default class Functions {
       return snippedStr + '\u2026'
     }
   }
+
+  static numProps(obj) {
+    if(typeof(obj) != 'object') {
+      throw new Error('Not a valid input')
+    } else {
+      let props = Object.keys(obj)
+      return props.length
+    }
+  }
 }
